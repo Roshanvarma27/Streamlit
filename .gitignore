@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenv
+venv/
+ENV/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Large data, models and archives (do not commit large binaries)
+# Add or remove entries depending on what you want to keep in repo
+*.h5
+*.keras
+*.sav
+*.zip
+*.tar.gz
+*.tgz
+insat3d-infrared-raw-cyclone-images-20132021.zip
+insat3d_for_reference_ds/
+insat3d_ir_cyclone_ds/
+insat3d_raw_cyclone_ds/
+test_data/
+
+# Logs and runtime
+*.log
+*.pem
+*.pid
+*.cache
+
+# Python egg/build artifacts
+pip-wheel-metadata/
+
+# Notebook outputs (if you want to keep outputs remove this)
+*.nbconvert.ipynb
+/mylogs.log
+/__pycache__
+.csv
+/insat3d_for_reference_ds
+/insat3d_for_reference_ds
+/insat3d_raw_cyclone_ds
